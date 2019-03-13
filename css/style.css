@@ -1,0 +1,333 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+    
+cursor: pointer;
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.wapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#header {
+    margin: 0;
+    background-image: url(../img/Hero.png);
+    background-repeat: no-repeat;
+    height: 380px;
+}
+
+h1 {
+    position: relative;
+    left: 380.5px;
+    top: 89px;
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 3.89px;
+}
+
+
+
+.selectForm {
+    width: 452px;
+    height: 48px;
+    position: relative;
+    top: 180px;
+    left: 293px;
+    padding-left: 9.5px;
+    background: rgba(255,255,255,0.70);
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    font-family: PingFangTC-Regular;
+    font-size: 18px;
+    color: #000000;
+    line-height: 21px;
+    background-image: url(../img/icons_down\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center right 16px;
+    -webkit-appearance: none; /*Chrome*/
+    -moz-appearance: none; /*FF*/
+    appearance: none;/*CSS3*/
+    cursor: pointer;
+}
+
+.hotPart {
+    position: relative;
+    top: 266px;
+    left: 112px;
+    width: 800px;
+    height: 112px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px; 
+}
+
+.hotPart h2 {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 26px;
+    font-family: AppleSystemUIFont;
+    font-size: 18px;
+    color: #000000;
+}
+
+.hotList {
+    margin-left: 51px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.hotList button {
+    width: 130px;
+    height: 42px;
+    font-family: PingFangTC-Regular;
+    font-size: 20px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.hotPart .hotList .hot1 {
+    background: #8A82CC;
+ }
+ .hotPart .hotList .hot2 {
+    background: #FFA782;
+ }
+ .hotPart .hotList .hot3 {
+    background: #F5D105;
+ }
+ .hotPart .hotList .hot4 {
+    background: #559AC8;
+ }
+
+ .line {
+    margin-top: 310px;
+    margin-left: 62px;
+    width: 900px;
+    height: 1px;
+    background-image: linear-gradient(to right, #559AC8 0%, #559AC8 50%, transparent 50%);
+    background-size: 10px 1px;
+    background-repeat: repeat-x;
+    z-index: 5; 
+}
+
+.line img {
+    margin-left: 439px;
+    margin-top: -30px;
+    border: 1px solid #559AC8;
+    border-radius: 100px;
+    padding: 6px 4px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    background: #FFFFFF;
+}
+
+#content #goTop {
+    position: fixed;
+    bottom: 195px;
+    right: 350px; }
+
+#content .pages {
+    position: absolute;
+    top: 1910px;
+    left: 695px;
+    margin-bottom: 41px;
+}
+
+#content .pages li {
+   float: left;
+   font-size: 14px; 
+}
+
+#content .pages a {
+    text-decoration: none;
+    color: #4A4A4A;
+    padding-right: 24px; 
+}
+
+#content .pages a:hover {
+    color: #559AC8; 
+}
+
+#content .pages .prev {
+    color: rgba(73, 73, 73, 0.5);
+    padding-right: 34px;
+}
+
+#content .pages .next {
+    padding-left: 10.5px;
+}
+
+#footer {
+    position: absolute;
+    top: 1957px;
+    width: 1024px;
+    height: 90px;
+    background: #559AC8;
+    text-align: center;
+    font-size: 14px; 
+}
+
+#footer .webName {
+    color: #FFFFFF;
+    position: absolute;
+    top: 24px;
+    left: 477px;
+}
+
+#footer .info {
+    letter-spacing: 1px; 
+    color: #FFD366;
+    position: absolute;
+    top: 53px;
+    left: 440px; 
+}
+
+
+.row {
+    margin: 0 -10px;
+    position: relative;
+    top: 200px;
+}
+
+.col-6 {
+    position: relative;
+    margin-bottom: 36px;
+    float: left;
+    width: 50%;
+}
+
+.col-6 .picture1 {
+    width: 464px;
+    height: 155px;
+}
+
+.col-6 h3 {
+    position: absolute;
+    top: 117px;
+    left: 30px;
+    font-family: SFNSDisplay;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.col-6 h5 {
+    position: absolute;
+    top: 133px;
+    left: 400px;
+    font-family: PingFangTC-Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.col-6 li {
+    font-family: AppleSystemUIFont;
+    font-size: 16px;
+    color: #000000;
+}
+
+.col-6 .time1 {
+    width: 18px;
+    height: 18px;
+    margin-left: 23px;
+    margin-right: 9px;
+    margin-top: 15px;
+}
+
+.col-6 .pin {
+    width: 16px;
+    height: 20px;
+    margin-left: 24px;
+    margin-right: 9px;
+}
+
+.col-6 .phone {
+    width: 12px;
+    height: 20px;
+    margin-left: 26px;
+    margin-right: 9px;
+}
+
+.col-6 .openTime {
+    margin-bottom: 13px;
+}
+
+.col-6 .addr {
+    margin-bottom: 13px;
+}
+
+.col-6 .tag {
+    margin-left: 187px;
+    margin-right: 8px;
+}
+
+.col-6 .text {
+    width: 464px;
+    height: 118px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2); 
+}
+
+.container {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+.currentPart {
+position: relative;
+top: 160px;
+text-align: center;
+font-family: SFNSDisplay;
+font-size: 36px;
+color: #8A82CC;
+}
